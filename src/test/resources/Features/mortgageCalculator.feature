@@ -8,6 +8,6 @@ Feature: Mortgage Calculator
     Then the real apr rate is "<ExpectedAprRate>"
     Examples:
       | HomePrice | DownPayment | InterestRate | ExpectedAprRate |
-      | 200000    | 15000       | 3            | 3.130           |
+      | 200000    | 15000       | 3            | 3.130%           |
 
 
